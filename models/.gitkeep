@@ -1,0 +1,3 @@
+# This file keeps the models/ directory tracked by git.
+# The actual .pkl model files are excluded via .gitignore.
+# Run `python src/train.py` to generate them locally.

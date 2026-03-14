@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ── Project-specific ──────────────────────────────────────────────────────────
+# Large binary model files (regenerate with: python src/train.py)
+models/*.pkl
+
+# Processed / derived data
+data/processed/
+
+# Word documents (keep in repo root only if needed; large binary)
+*.docx
+
+# Jupyter virtual docs (IDE artefact)
+notebooks/.virtual_documents/
